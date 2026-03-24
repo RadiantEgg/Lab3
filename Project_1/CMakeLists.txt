@@ -10,3 +10,10 @@ add_executable(test_text_utlis
     src/text_utlis.c
 )
 target_include_directories(test_text_utlis PUBLIC include)
+
+add_executable(test_word_stats
+    tests/test_word_stats.c
+    src/text_utlis.c
+    src/word_stats.c
+)
+target_include_directories(test_word_stats PUBLIC include)

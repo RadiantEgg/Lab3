@@ -26,7 +26,7 @@ void read_text(char *s)
     }
 
     if (last == ' ') {
-        *(p--) = '\0';
+        *(--p) = '\0';
     } else {
         *p = '\0';
     }

@@ -10,7 +10,7 @@ void run_word_cleaner(void)
     char initials[MAXLINE];
     char longest_word[MAXLINE];
 
-    getline(line);
+    read_text(line);
 
     word_cnt = count_word(line);
     printf("%d\n", word_cnt);
